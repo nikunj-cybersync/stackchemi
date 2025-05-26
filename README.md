@@ -76,9 +76,6 @@ StackChemi addresses a critical need in medication safety by providing instant, 
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ⚠️ Disclaimer
 
@@ -89,3 +86,4 @@ This tool is for informational purposes only and should not replace professional
 - Drug interaction data powered by AI models
 - Visualization powered by D3.js
 - UI components inspired by modern design practices
+- Vibe coding contest by Real coderss community
