@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  /* Light mode defaults */
+  --background: 248 250 252; /* slate-50 */
+  --foreground: 30 41 59;   /* slate-800 */
+}
+
+@theme inline {
+  /* These might be for a specific UI library, keep them if needed */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 30 41 59;   /* slate-800 */
+    --foreground: 226 232 240; /* slate-200 */
+  }
+}
+
+body {
+  /* Use RGB values for Tailwind opacity modifiers if needed later */
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  /* font-family removed to allow layout.tsx fonts to take precedence */
+}
